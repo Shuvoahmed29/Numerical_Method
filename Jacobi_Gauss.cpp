@@ -6,12 +6,6 @@ void code(){
     freopen("output.txt", "w", stdout);
     #endif 
 }
-#define f1(x,y,z) (85-6*y+z)/27
-#define f2(x,y,z) (72-6*x-3*z)/15
-#define f3(x,y,z) (110-x-y)/54
-// #define f1(x,y,z)  (7+y)/2
-// #define f2(x,y,z)  (1+x+z)/2
-// #define f3(x,y,z)  (1+y)/2
 int main(){
 	code();
 	vector<int>vec[3];
